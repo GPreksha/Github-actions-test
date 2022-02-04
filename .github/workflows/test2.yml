@@ -11,6 +11,7 @@ jobs:
       - name: Multiline command
         run: |
             npm -v
+            echo "version details"
             node -v  
 
       - name: Python command
