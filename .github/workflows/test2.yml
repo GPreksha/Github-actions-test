@@ -1,0 +1,9 @@
+name: New job
+on: [push]
+
+jobs:
+  New-job-fixed:
+    runs-on: Windows-latest
+    steps:
+      - name: just print
+        run: print" Preksha you will be in new company soon with 10 lakh package"
