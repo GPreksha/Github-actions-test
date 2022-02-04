@@ -3,7 +3,7 @@ on: [push]
 branches: [main]
 
 jobs:
-   run-shell-commands
+   run-shell-commands:
  runs-on: ubuntu-latest
  
  steps:
@@ -11,7 +11,8 @@ jobs:
    run: echo "HI "
 
   -name: print
-  run: echo " print print"
+  run: echo " print print11"
+
   -name: multiline command
   run: 
    node -v
