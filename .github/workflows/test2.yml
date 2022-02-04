@@ -5,5 +5,5 @@ jobs:
   New-job-fixed:
     runs-on: Windows-latest
     steps:
-      - name: just print
+      - name: JOB
         run: echo" Preksha you will be in new company soon with 10 lakh package - Efforts for Family"
