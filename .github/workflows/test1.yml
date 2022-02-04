@@ -4,7 +4,6 @@ on: [push]
 jobs:
      run-shell-commands:
      runs-on: ubuntu-latest
- 
-    steps:
-      - name: single line command
-         run: echo "HI"
+        steps:
+              - name: single line command
+                run: echo "HI"
