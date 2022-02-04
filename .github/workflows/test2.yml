@@ -21,13 +21,14 @@ jobs:
 
         shell: python  
 
-run-windows-commands:
-  runs-on: windows-latest
-  steps:
-    - name: Directory powersheel
-      run: Get-Loctaion
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
+       - name: Directory powersheel
+         run: Get-Loctaion
 
-    - name: Directory bash
-      run: pwd
-      shell: bash  
+       - name: Directory bash
+         run: pwd
+         shell: bash  
 
+  
