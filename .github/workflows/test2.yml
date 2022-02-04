@@ -7,3 +7,8 @@ jobs:
     steps:
       - name: JOB
         run: echo "Preksha you will be in new company soon with 10 lakh package - Efforts for Family"
+
+      - name: Multiline command
+        run:
+            npm -v
+            node -v  
