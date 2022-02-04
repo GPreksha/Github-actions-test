@@ -10,6 +10,8 @@ jobs:
   -name: single line command
    run: echo "HI "
 
+  -name: print
+  run: echo " print print"
   -name: multiline command
   run: 
    node -v
