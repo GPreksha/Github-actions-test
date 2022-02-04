@@ -1,19 +1,19 @@
 name: Shell commands
 on: [push]
-branches: [main]
+
 
 jobs:
    run-shell-commands:
- runs-on: ubuntu-latest
+     runs-on: ubuntu-latest
  
- steps:
-  -name: single line command
-   run: echo "HI "
+    steps:
+      -name: single line command
+       run: echo "HI "
 
-  -name: print
-  run: echo " print print11"
+      -name: print
+       run: echo " print print11"
 
-  -name: multiline command
-  run: 
-   node -v
-   npm -v
+       -name: multiline command
+        run: 
+            node -v
+            npm -v
