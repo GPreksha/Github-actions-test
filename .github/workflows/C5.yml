@@ -5,8 +5,7 @@ jobs:
   run-github actions:
   runs-on: ubuntu-latest
   steps:
-     -name: Simple JS actiom
-      id: greet
+     -name: Simple JS action
       uses: actions/hello-world-javascript-actions@master
       with:
         who-to-greet: Preksha's new job 10 Lakh package
