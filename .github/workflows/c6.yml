@@ -1,8 +1,8 @@
-name: Actions workflow
+name: Simple actions 
 on: [push]
 
 jobs:
-  run-github-actions:
+  Run-github-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Simple JS action
@@ -10,5 +10,6 @@ jobs:
         uses: actions/hello-world-javascript-actions@master
         with:
           who-to-greet: Preksha's new job 10 Lakh package
+          
      - name: log greeting time
        run: echo "${{steps.greet.outputs.time}}"  
