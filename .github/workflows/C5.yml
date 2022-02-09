@@ -6,7 +6,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
      -name: Simple JS action
-      id:
+      Id:
          greet
       uses: actions/hello-world-javascript-actions@master
       with:
