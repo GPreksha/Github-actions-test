@@ -3,13 +3,13 @@ on: [push]
 
 jobs:
   run-github-actions:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Simple JS action
-      id: greet
-      uses: actions/hello-world-javascript-actions@master
-      with:
-        who-to-greet: Preksha's new job 10 Lakh package
-    - name: log greeting time
-      run: echo "${{steps.greet.outputs.time}}"  
+    steps:
+      - name: Simple JS action
+        id: greet
+        uses: actions/hello-world-javascript-actions@master
+        with:
+          who-to-greet: Preksha's new job 10 Lakh package
+     - name: log greeting time
+       run: echo "${{steps.greet.outputs.time}}"  
